@@ -1,0 +1,76 @@
+apple_genre,a2_top_category,basis
+Alternative Health,Health & Fitness,apple_parent
+Arts,Arts,same_name
+Books,Arts,a2_child_of_top
+Business,Business,same_name
+Business News,News,apple_parent
+Careers,Business,apple_parent
+Christianity,Unmapped,no_a2_equivalent
+Comedy,Comedy,same_name
+Comedy Fiction,Unmapped,apple_parent_has_no_a2_equivalent
+Comedy Interviews,Comedy,apple_parent
+Courses,Education,apple_parent
+Cricket,Unmapped,no_a2_equivalent
+Daily News,News,apple_parent
+Design,Arts,apple_parent
+Documentary,Unmapped,no_a2_equivalent
+Drama,Arts,judgment
+Education,Education,same_name
+Education for Kids,Education,judgment
+Entertainment News,News,apple_parent
+Entrepreneurship,Business,a2_child_of_top
+Fantasy Sports,Unmapped,no_a2_equivalent
+Fashion & Beauty,Arts,apple_parent
+Fiction,Unmapped,no_a2_equivalent
+Film History,Arts,judgment
+Film Reviews,Arts,a2_child_of_top
+Fitness,Health & Fitness,apple_parent
+Food,Arts,apple_parent
+Football,Unmapped,no_a2_equivalent
+Government,Unmapped,no_a2_equivalent
+Health & Fitness,Health & Fitness,same_name
+History,Education,a2_child_of_top
+Hobbies,Unmapped,no_a2_equivalent
+Hockey,Unmapped,no_a2_equivalent
+Improv,Comedy,a2_child_of_top
+Investing,Business,a2_child_of_top
+Islam,Unmapped,no_a2_equivalent
+Kids & Family,Unmapped,no_a2_equivalent
+Language Learning,Education,a2_child_of_top
+Leisure,Unmapped,no_a2_equivalent
+Management,Business,apple_parent
+Marketing,Business,a2_child_of_top
+Medicine,Health & Fitness,apple_parent
+Mental Health,Health & Fitness,a2_child_of_top
+Music,Unmapped,no_a2_equivalent
+Natural Sciences,Education,judgment
+Nature,Education,judgment
+News,News,same_name
+News Commentary,News,apple_parent
+Nutrition,Health & Fitness,a2_child_of_top
+Parenting,Unmapped,no_a2_equivalent
+Performing Arts,Arts,apple_parent
+Personal Journals,Unmapped,no_a2_equivalent
+Philosophy,Unmapped,no_a2_equivalent
+Physics,Education,judgment
+Places & Travel,Unmapped,no_a2_equivalent
+Politics,News,apple_parent
+Relationships,Unmapped,no_a2_equivalent
+Religion & Spirituality,Unmapped,no_a2_equivalent
+Rugby,Unmapped,no_a2_equivalent
+Running,Health & Fitness,a2_child_of_top
+Science,Education,a2_child_of_top
+Self-Improvement,Education,apple_parent
+Soccer,Unmapped,no_a2_equivalent
+Social Sciences,Education,judgment
+Society & Culture,Unmapped,no_a2_equivalent
+Spirituality,Unmapped,no_a2_equivalent
+Sports,Unmapped,no_a2_equivalent
+Stand-Up,Comedy,a2_child_of_top
+Stories for Kids,Unmapped,no_a2_equivalent
+TV & Film,Arts,judgment
+Tech News,News,apple_parent
+Technology,Technology,same_name
+True Crime,True Crime,same_name
+Video Games,Unmapped,no_a2_equivalent
+Wilderness,Unmapped,no_a2_equivalent

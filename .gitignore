@@ -1,0 +1,26 @@
+# Secrets / 密钥(永远不要提交)
+.env
+*.pem
+*.key
+credentials*
+secrets*
+盐.txt
+*.salt
+
+# Generated data (can be rebuilt by the scripts). The raw Assignment 2 flat table holds synthetic but unmasked names and e-mails.
+# 生成的数据(可由脚本重新生成);A2 原始平铺表含合成但未脱敏的姓名和邮箱。
+data/
+
+# Private working notes (personal details and course rules) / 私人工作笔记
+Reference_Assignments_1-3.md
+Reusable_Profile_and_Rules.md
+docs/report_notes.md
+
+# Local packaged copy for submission (duplicates the repo) / 本地提交包副本
+Submission/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/

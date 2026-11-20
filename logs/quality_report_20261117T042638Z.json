@@ -1,0 +1,42 @@
+{
+  "run_id": "20261117T042638Z",
+  "unique_ids_requested": 667,
+  "records_retrieved": 663,
+  "minimum_required": 500,
+  "meets_minimum": true,
+  "http": {
+    "calls": 18,
+    "ok": 15,
+    "retries": 3,
+    "failed": 0,
+    "bad_payload": 0
+  },
+  "checks": {
+    "chk_id_not_null": {
+      "passed": 663,
+      "failed": 0
+    },
+    "chk_id_unique": {
+      "passed": 663,
+      "failed": 0
+    },
+    "chk_trackcount_range": {
+      "passed": 663,
+      "failed": 0
+    },
+    "chk_release_date_valid": {
+      "passed": 639,
+      "failed": 24
+    },
+    "chk_genre_not_null": {
+      "passed": 663,
+      "failed": 0
+    },
+    "chk_feed_url_format": {
+      "passed": 644,
+      "failed": 19
+    }
+  },
+  "all_checks_passed_rows": 622,
+  "quarantine_candidates": 41
+}
