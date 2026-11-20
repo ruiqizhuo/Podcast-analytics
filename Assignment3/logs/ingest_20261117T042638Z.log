@@ -1,0 +1,52 @@
+2026-11-16 22:26:38,696 INFO chart us ...
+2026-11-16 22:26:39,870 INFO chart us: 100 rows, 100 new ids, 100 unique so far
+2026-11-16 22:26:39,870 INFO chart gb ...
+2026-11-16 22:26:42,641 INFO chart gb: 100 rows, 87 new ids, 187 unique so far
+2026-11-16 22:26:42,641 INFO chart ca ...
+2026-11-16 22:27:04,717 WARNING    attempt 1: ReadTimeout
+2026-11-16 22:27:04,718 INFO    waiting 2.1 s before retry
+2026-11-16 22:27:27,300 WARNING    attempt 2: ReadTimeout
+2026-11-16 22:27:27,300 INFO    waiting 4.6 s before retry
+2026-11-16 22:27:32,950 INFO chart ca: 100 rows, 31 new ids, 218 unique so far
+2026-11-16 22:27:32,950 INFO chart au ...
+2026-11-16 22:27:35,251 INFO chart au: 100 rows, 56 new ids, 274 unique so far
+2026-11-16 22:27:35,251 INFO chart de ...
+2026-11-16 22:27:39,886 INFO chart de: 100 rows, 99 new ids, 373 unique so far
+2026-11-16 22:27:39,887 INFO chart fr ...
+2026-11-16 22:27:42,698 INFO chart fr: 100 rows, 99 new ids, 472 unique so far
+2026-11-16 22:27:42,699 INFO chart jp ...
+2026-11-16 22:27:44,206 INFO chart jp: 100 rows, 99 new ids, 571 unique so far
+2026-11-16 22:27:44,206 INFO chart br ...
+2026-11-16 22:28:06,888 WARNING    attempt 1: ReadTimeout
+2026-11-16 22:28:06,888 INFO    waiting 2.4 s before retry
+2026-11-16 22:28:10,270 INFO chart br: 100 rows, 96 new ids, 667 unique so far
+2026-11-16 22:28:10,270 INFO -> 667 unique ids from 800 chart rows
+2026-11-16 22:28:10,270 INFO lookup page 1/7 (100 ids) ...
+2026-11-16 22:28:12,591 INFO lookup page 1: asked 100, got 100
+2026-11-16 22:28:12,591 INFO lookup page 2/7 (100 ids) ...
+2026-11-16 22:28:15,558 INFO lookup page 2: asked 100, got 100
+2026-11-16 22:28:15,558 INFO lookup page 3/7 (100 ids) ...
+2026-11-16 22:28:18,487 INFO lookup page 3: asked 100, got 100
+2026-11-16 22:28:18,487 INFO lookup page 4/7 (100 ids) ...
+2026-11-16 22:28:21,468 INFO lookup page 4: asked 100, got 99
+2026-11-16 22:28:21,468 INFO lookup page 5/7 (100 ids) ...
+2026-11-16 22:28:24,554 INFO lookup page 5: asked 100, got 97
+2026-11-16 22:28:24,554 INFO lookup page 6/7 (100 ids) ...
+2026-11-16 22:28:27,447 INFO lookup page 6: asked 100, got 100
+2026-11-16 22:28:27,447 INFO lookup page 7/7 (67 ids) ...
+2026-11-16 22:28:30,406 INFO lookup page 7: asked 67, got 67
+2026-11-16 22:28:30,406 INFO -> 663 records retrieved from the lookup API (minimum 500)
+2026-11-16 22:28:30,623 INFO 
+Quality checks (663 rows)
+2026-11-16 22:28:30,623 INFO check                        passed   failed
+2026-11-16 22:28:30,623 INFO chk_id_not_null                 663        0
+2026-11-16 22:28:30,623 INFO chk_id_unique                   663        0
+2026-11-16 22:28:30,623 INFO chk_trackcount_range            663        0
+2026-11-16 22:28:30,623 INFO chk_release_date_valid          639       24
+2026-11-16 22:28:30,623 INFO chk_genre_not_null              663        0
+2026-11-16 22:28:30,624 INFO chk_feed_url_format             644       19
+2026-11-16 22:28:30,624 INFO ALL CHECKS                      622       41
+2026-11-16 22:28:30,663 INFO 
+HTTP: {'calls': 18, 'ok': 15, 'retries': 3, 'failed': 0, 'bad_payload': 0}
+2026-11-16 22:28:30,663 INFO Bronze  : data\bronze\api_raw_20261117T042638Z.jsonl
+2026-11-16 22:28:30,664 INFO Staging : data\staging\api_records.csv

@@ -14,7 +14,7 @@ data/
 # Private working notes (personal details and course rules) / 私人工作笔记
 Reference_Assignments_1-3.md
 Reusable_Profile_and_Rules.md
-docs/report_notes.md
+**/docs/report_notes.md
 
 # Local packaged copy for submission (duplicates the repo) / 本地提交包副本
 Submission/
@@ -24,3 +24,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .venv/
+
+# Assignment 2 loader lives in a folder called Data (the rule above would match it on Windows) / A2 的 Data 文件夹只放加载脚本
+!Assignment2/Data/
+Assignment2/Data/*.csv

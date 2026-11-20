@@ -1,4 +1,0 @@
-requests
-pandas
-snowflake-connector-python
-neo4j
